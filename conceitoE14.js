@@ -1,3 +1,7 @@
+// ||  Ou
+// && so executara quandos os dois forem true
+
+
 let hora = 3;
 let saldo = 500;
 let valor = 200;
