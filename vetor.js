@@ -7,3 +7,13 @@ console.log(Nomes[3] + Medias[3])
 for (let i = 0; i < Nomes.length; i = i + 1) {
    console.log("Voltas",  Nomes[i], i) 
 }
+
+//
+
+for (let i = 0; i < Nomes.length; i = i + 1) {
+    if (Medias[i] >= 7) {
+        console.log(Nomes[i], "foi aprovado com média:", Medias[i]);
+    } else {
+        console.log(Nomes[i], "foi reprovado com média:", Medias[i]);
+    }
+}
